@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
@@ -48,3 +48,4 @@ namespace TailSpin.SpaceGame.Web
         Task<int> CountItemsAsync(Expression<Func<T, bool>> queryPredicate);
     }
 }
+© 2020 GitHub, Inc.
